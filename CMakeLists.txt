@@ -11,7 +11,7 @@ project("GDWG-GRAPH-CPP" CXX)
 add_library(${PROJECT_NAME} INTERFACE)
 
 # Options
-option(GRAPH_USE_LIBCXX "Build and test using libc++ as the standard library." ON)
+option(GRAPH_USE_LIBCXX "Build and test using libc++ compiler." ON)
 option(GRAPH_ENABLE_TESTING "Enable testing of the gdwg library." ON)
 
 list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/cmake/toolchains")
